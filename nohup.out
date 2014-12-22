@@ -1,0 +1,257 @@
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at net.js:1146:9
+    at dns.js:72:18
+    at process._tickDomainCallback (node.js:459:13)
+    at process._tickFromSpinner (node.js:390:15)
+
+npm ERR! ghost@0.4.2 start: `node index`
+npm ERR! Exit status 8
+npm ERR! 
+npm ERR! Failed at the ghost@0.4.2 start script.
+npm ERR! This is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+npm ERR! System Linux 2.6.32-431.1.2.0.1.el6.x86_64
+npm ERR! command "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! cwd /var/www/nodejs/ghost
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.3
+npm ERR! code ELIFECYCLE
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /var/www/nodejs/ghost/npm-debug.log
+npm ERR! not ok code 0
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+[32mGhost is running in development...[39m 
+Listening on 188.226.209.193:2368 
+Url configured as: http://my-ghost-blog.com [90m
+Ctrl+C to shut down[39m
+[90mGET / [32m200 [90m153ms - 2.72kb[0m
+[90mGET /assets/css/screen.css?v=330ec92edb [32m200 [90m10ms - 22.97kb[0m
+[90mGET /assets/js/jquery.fitvids.js?v=330ec92edb [32m200 [90m10ms - 2.63kb[0m
+[90mGET /assets/js/index.js?v=330ec92edb [32m200 [90m5ms - 1.51kb[0m
+[90mGET /assets/fonts/icons.woff [32m200 [90m3ms - 1.77kb[0m
+[90mGET /public/jquery.js?v=330ec92edb [32m200 [90m518ms - 276.31kb[0m
+[90mGET /favicon.ico [32m200 [90m2ms - 1.06kb[0m
+[90mGET /welcome-to-ghost/ [32m200 [90m71ms - 6.72kb[0m
+[90mGET /admin [36m301 [90m3ms[0m
+[90mGET /admin/ [36m302 [90m5ms - 70b[0m
+[90mGET /ghost/ [36m302 [90m26ms - 84b[0m
+[90mGET /ghost/signin/ [36m302 [90m27ms - 84b[0m
+[90mGET /ghost/signup/ [32m200 [90m44ms - 2.59kb[0m
+[90mGET /ghost/css/ghost-ui.min.css?v=330ec92edb [32m200 [90m5ms - 90.28kb[0m
+[90mGET /ghost/scripts/helpers.js?v=330ec92edb [32m200 [90m2ms - 37.15kb[0m
+[90mGET /ghost/scripts/templates.js?v=330ec92edb [32m200 [90m3ms - 44.44kb[0m
+[90mGET /ghost/scripts/models.js?v=330ec92edb [32m200 [90m2ms - 5.91kb[0m
+[90mGET /ghost/scripts/views.js?v=330ec92edb [32m200 [90m4ms - 97.5kb[0m
+[90mGET /ghost/scripts/vendor.js?v=330ec92edb [32m200 [90m2347ms - 1.48mb[0m
+[90mPOST /ghost/signup/ [32m200 [90m882ms - 27b[0m
+[90mGET /ghost/ [32m200 [90m290ms - 4.93kb[0m
+[90mGET /ghost/fonts/icons.woff [32m200 [90m3ms - 21.98kb[0m
+[90mGET /ghost/api/v0.1/posts/?status=all&staticPages=all [32m200 [90m32ms - 8.12kb[0m
+[90mGET /ghost/editor/1/ [32m200 [90m43ms - 8.82kb[0m
+[90mGET /ghost/api/v0.1/posts/1/?status=all [32m200 [90m26ms - 7.75kb[0m
+[90mGET /ghost/api/v0.1/tags/ [32m200 [90m16ms - 373b[0m
+[90mGET /ghost/api/v0.1/posts/getSlug/Welcome%20to%20Aday's%20Ghost%20Blog/ [32m200 [90m31ms - 29b[0m
+[31m
+Ghost has shutdown[39m 
+Ghost was running for 180 seconds
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+[32mGhost is running in development...[39m 
+Listening on 188.226.209.193:2368 
+Url configured as: http://my-ghost-blog.com [90m
+Ctrl+C to shut down[39m
+[90mGET /ghost/editor/1/ [32m200 [90m162ms - 8.82kb[0m
+[90mGET /ghost/css/ghost-ui.min.css?v=cb17d31683 [32m200 [90m10ms - 90.28kb[0m
+[90mGET /ghost/scripts/helpers.js?v=cb17d31683 [32m200 [90m2ms - 37.15kb[0m
+[90mGET /ghost/scripts/templates.js?v=cb17d31683 [32m200 [90m1ms - 44.44kb[0m
+[90mGET /ghost/scripts/models.js?v=cb17d31683 [32m200 [90m2ms - 5.91kb[0m
+[90mGET /ghost/scripts/views.js?v=cb17d31683 [32m200 [90m2ms - 97.5kb[0m
+[90mGET /ghost/fonts/icons.woff [36m304 [90m3ms[0m
+[90mGET /ghost/scripts/vendor.js?v=cb17d31683 [32m200 [90m2059ms - 1.48mb[0m
+[90mGET /ghost/api/v0.1/posts/1/?status=all [32m200 [90m56ms - 7.75kb[0m
+[90mGET /ghost/api/v0.1/tags/ [32m200 [90m27ms - 373b[0m
+[90mGET /ghost/settings/user/ [32m200 [90m65ms - 4.58kb[0m
+[90mGET /ghost/api/v0.1/users/me/ [32m200 [90m26ms - 516b[0m
+[90mGET /shared/img/user-cover.png [32m200 [90m2ms - 23.01kb[0m
+[90mGET /ghost/api/v0.1/settings/?type=blog,theme,app [32m200 [90m48ms - 495b[0m
+[90mPUT /ghost/api/v0.1/settings/?type=blog,theme,app [32m200 [90m197ms - 545b[0m
+[90mGET /ghost/ [32m200 [90m67ms - 4.93kb[0m
+[90mGET /ghost/api/v0.1/posts/?status=all&staticPages=all [32m200 [90m39ms - 8.12kb[0m
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+
+/var/www/nodejs/ghost/config.js:73
+       /7     client: 'sqlite3',
+       ^
+[31m
+ERROR:[39m [31mCannot find the configuration for the current NODE_ENV[39m 
+ [37mNODE_ENV=development[39m 
+ [32mEnsure your config.js has a section for the current NODE_ENV value and is formatted properly.[39m 
+ Error: Cannot find the configuration for the current NODE_ENV
+    at validateConfigEnvironment (/var/www/nodejs/ghost/core/bootstrap.js:70:25)
+    at NearFulfilledProxy.when (/var/www/nodejs/ghost/node_modules/when/when.js:501:43)
+    at Promise._message (/var/www/nodejs/ghost/node_modules/when/when.js:426:25)
+    at Array.deliver [as 0] (/var/www/nodejs/ghost/node_modules/when/when.js:319:7)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at Array.2 (/var/www/nodejs/ghost/node_modules/when/when.js:352:5)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at drainQueue (/var/www/nodejs/ghost/node_modules/when/when.js:836:3)
+    at process._tickCallback (node.js:415:13) 
+
+[90mGET /ghost/ [32m200 [90m69ms - 4.93kb[0m
+[90mGET /ghost/css/ghost-ui.min.css?v=cb17d31683 [36m304 [90m2ms[0m
+[90mGET /ghost/scripts/helpers.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/vendor.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/templates.js?v=cb17d31683 [36m304 [90m0ms[0m
+[90mGET /ghost/scripts/models.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/views.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/fonts/icons.woff [36m304 [90m1ms[0m
+[90mGET /ghost/api/v0.1/posts/?status=all&staticPages=all [32m200 [90m31ms - 8.12kb[0m
+[90mGET /ghost/ [32m200 [90m41ms - 4.93kb[0m
+[90mGET /ghost/css/ghost-ui.min.css?v=cb17d31683 [36m304 [90m3ms[0m
+[90mGET /ghost/scripts/vendor.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/helpers.js?v=cb17d31683 [36m304 [90m2ms[0m
+[90mGET /ghost/scripts/templates.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/models.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/views.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/fonts/icons.woff [36m304 [90m1ms[0m
+[90mGET /ghost/api/v0.1/posts/?status=all&staticPages=all [32m200 [90m26ms - 8.12kb[0m
+[90mGET /ghost/ [32m200 [90m43ms - 4.93kb[0m
+[90mGET /ghost/css/ghost-ui.min.css?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/vendor.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/helpers.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/templates.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/scripts/models.js?v=cb17d31683 [36m304 [90m0ms[0m
+[90mGET /ghost/scripts/views.js?v=cb17d31683 [36m304 [90m1ms[0m
+[90mGET /ghost/fonts/icons.woff [36m304 [90m1ms[0m
+[90mGET /ghost/api/v0.1/posts/?status=all&staticPages=all [32m200 [90m23ms - 8.12kb[0m
+
+npm ERR! ghost@0.4.2 start: `node index`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the ghost@0.4.2 start script.
+npm ERR! This is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+npm ERR! System Linux 2.6.32-431.1.2.0.1.el6.x86_64
+npm ERR! command "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! cwd /var/www/nodejs/ghost
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.3
+npm ERR! code ELIFECYCLE
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /var/www/nodejs/ghost/npm-debug.log
+npm ERR! not ok code 0
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+
+/var/www/nodejs/ghost/config.js:73
+       /7     client: 'sqlite3',
+       ^
+[31m
+ERROR:[39m [31mCannot find the configuration for the current NODE_ENV[39m 
+ [37mNODE_ENV=development[39m 
+ [32mEnsure your config.js has a section for the current NODE_ENV value and is formatted properly.[39m 
+ Error: Cannot find the configuration for the current NODE_ENV
+    at validateConfigEnvironment (/var/www/nodejs/ghost/core/bootstrap.js:70:25)
+    at NearFulfilledProxy.when (/var/www/nodejs/ghost/node_modules/when/when.js:501:43)
+    at Promise._message (/var/www/nodejs/ghost/node_modules/when/when.js:426:25)
+    at Array.deliver [as 0] (/var/www/nodejs/ghost/node_modules/when/when.js:319:7)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at Array.2 (/var/www/nodejs/ghost/node_modules/when/when.js:352:5)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at drainQueue (/var/www/nodejs/ghost/node_modules/when/when.js:836:3)
+    at process._tickCallback (node.js:415:13) 
+
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+
+/var/www/nodejs/ghost/config.js:73
+       /7     client: 'sqlite3',
+       ^
+[31m
+ERROR:[39m [31mCannot find the configuration for the current NODE_ENV[39m 
+ [37mNODE_ENV=development[39m 
+ [32mEnsure your config.js has a section for the current NODE_ENV value and is formatted properly.[39m 
+ Error: Cannot find the configuration for the current NODE_ENV
+    at validateConfigEnvironment (/var/www/nodejs/ghost/core/bootstrap.js:70:25)
+    at NearFulfilledProxy.when (/var/www/nodejs/ghost/node_modules/when/when.js:501:43)
+    at Promise._message (/var/www/nodejs/ghost/node_modules/when/when.js:426:25)
+    at Array.deliver [as 0] (/var/www/nodejs/ghost/node_modules/when/when.js:319:7)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at Array.2 (/var/www/nodejs/ghost/node_modules/when/when.js:352:5)
+    at runHandlers (/var/www/nodejs/ghost/node_modules/when/when.js:385:12)
+    at drainQueue (/var/www/nodejs/ghost/node_modules/when/when.js:836:3)
+    at process._tickCallback (node.js:415:13) 
+
+
+> ghost@0.4.2 start /var/www/nodejs/ghost
+> node index
+
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at net.js:1146:9
+    at dns.js:72:18
+    at process._tickDomainCallback (node.js:459:13)
+    at process._tickFromSpinner (node.js:390:15)
+
+npm ERR! ghost@0.4.2 start: `node index`
+npm ERR! Exit status 8
+npm ERR! 
+npm ERR! Failed at the ghost@0.4.2 start script.
+npm ERR! This is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+npm ERR! System Linux 2.6.32-431.1.2.0.1.el6.x86_64
+npm ERR! command "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! cwd /var/www/nodejs/ghost
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.3
+npm ERR! code ELIFECYCLE
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /var/www/nodejs/ghost/npm-debug.log
+npm ERR! not ok code 0
